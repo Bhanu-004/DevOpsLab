@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MVSR Student ID Card</title>
+
+<style>
+
+body{
+    background:#dfe6e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ID CARD */
+.id-card{
+    width:340px;
+    height:520px;
+    background:white;
+    margin:40px auto;
+    border-radius:15px;
+    box-shadow:0 0 18px rgba(0,0,0,0.4);
+    overflow:hidden;
+    border:2px solid #0b3d91;
+}
+
+/* HEADER */
+.header{
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+.header h2{
+    margin:0;
+    font-size:20px;
+}
+
+.header p{
+    margin:3px;
+    font-size:12px;
+}
+
+/* LOGO */
+.logo{
+    text-align:center;
+    margin-top:10px;
+}
+
+.logo img{
+    width:80px;
+    height:80px;
+}
+
+/* PHOTO */
+.photo{
+    text-align:center;
+    margin-top:10px;
+}
+
+.photo img{
+    width:130px;
+    height:150px;
+    border:3px solid #0b3d91;
+}
+
+/* STUDENT NAME */
+.name{
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    color:#0b3d91;
+    margin-top:8px;
+}
+
+/* DETAILS */
+.details{
+    padding:15px;
+    font-size:14px;
+}
+
+.details table{
+    width:100%;
+}
+
+.details td{
+    padding:5px;
+}
+
+.label{
+    font-weight:bold;
+    width:120px;
+}
+
+/* FOOTER */
+.footer{
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:8px;
+    font-size:13px;
+    position:absolute;
+    width:340px;
+    bottom:0;
+}
+
+/* BARCODE */
+.barcode{
+    text-align:center;
+    margin-top:10px;
+}
+
+.barcode img{
+    width:220px;
+    height:60px;
+}
+
+/* SIGNATURE */
+.sign{
+    position:right;
+    display:flex;
+    justify-content:space-between;
+    padding:0 15px;
+    margin-top:15px;
+    font-size:12px;
+}
+
+.sign div{
+    position:right;
+    border-top:1px solid black;
+    width:120px;
+    text-align:center;
+    padding-top:3px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="id-card">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h2>MVSR ENGINEERING COLLEGE</h2>
+        <p>Nadergul, Hyderabad - 501510</p>
+        <p>Autonomous | Affiliated to Osmania University</p>
+    </div>
+
+    <!-- LOGO -->
+    <div class="logo">
+        <p>IDENTITY CARD</p>
+    </div>
+
+    <!-- PHOTO -->
+    <div class="photo">
+        <img src="https://via.placeholder.com/130x150" alt="Student Photo">
+    </div>
+
+    <!-- NAME -->
+    <div class="name">
+        	RIA KUMAR
+    </div>
+
+    <!-- DETAILS -->
+    <div class="details">
+        <table>
+            <tr>
+                <td class="label">Roll No</td>
+                <td>: 2451-23-711-324</td>
+            </tr>
+            <tr>
+                <td class="label">Branch</td>
+                <td>: B.E - CSE(AIML)</td>
+            </tr>
+            <tr>
+                <td class="label">DOB</td>
+                <td>: 12-05-2005</td>
+            </tr>
+            <tr>
+                <td class="label">Blood Group</td>
+                <td>: O+ve</td>
+            </tr>
+            <tr>
+                <td class="label">Valid Upto</td>
+                <td>: May 2027</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- SIGNATURE -->
+    <div class="sign">
+        <div>Principal</div>
+    </div>
+
+    <!-- BARCODE -->
+    <div class="barcode">
+        <img src="https://barcode.tec-it.com/barcode.ashx?data=24A81A0501&code=Code128&dpi=96">
+    </div>
+
+    <!-- FOOTER -->
+
+</div>
+
+</body>
+</html>
+
